@@ -2,7 +2,7 @@ export class Task {
   id: string;
   title: string;
   description: string;
-  status: boolean;
+  status: TaskStatus;
 }
 
 export enum TaskStatus {
